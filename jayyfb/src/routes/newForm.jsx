@@ -9,7 +9,7 @@ const NewForm = () => {
         setName(e.target.value);
     };
 
-    const handleSumbit = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         const form = $(e.target);
         $.ajax({
@@ -27,7 +27,7 @@ const NewForm = () => {
             <form
                 action="https://jfreire-benites.github.io/jayyFB/php/server.php"
                 method="post"
-                onSubmit={(event) => handleSumbit(event)}
+                onSubmit={(event) => handleSubmit(event)}
             >
                 <label htmlFor="name">Name: </label>
                 <input
