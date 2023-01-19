@@ -25,7 +25,7 @@ const NewForm = () => {
     return (
         <div className="App">
             <form
-                action="http://localhost:8000/server.php"
+                action="https://jfreire-benites.github.io/jayyFB/server.php"
                 method="post"
                 onSubmit={(event) => handleSumbit(event)}
             >
