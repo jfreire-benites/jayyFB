@@ -1,3 +1,4 @@
+import NewForm from './newForm'
 const Home =()=>{
     return (
         <div>
@@ -5,6 +6,7 @@ const Home =()=>{
             <p style={{margin: '25%'}} >
                 chat to meeeeee!!!!
             </p>
+            <NewForm />
         </div>
     )
 }
